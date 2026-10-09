@@ -47,6 +47,7 @@ This laboratory suite targets mastery over foundational computational structures
 | :---: | :--- | :--- | :---: | :---: |
 | **01** | **Linear Search** | **Sequential Array Lookup:** Sequential element lookup in a 1D array with match flag, target index retrieval, and boundary termination. | [`linear_search.cpp`](./linear_search.cpp) | [📸 View](./outputs/linear_search.png) |
 | **02** | **Binary Search** | **Logarithmic Divide & Conquer:** Search on a sorted array using pointer bounding (`low`, `mid`, `high`) achieving $O(\log n)$ complexity. | [`binary_search.cpp`](./binary_search.cpp) | [📸 View](./outputs/binary_search.png) |
+| **03** | **Stack (LIFO)** | **Stack Implementation using Array:** Fixed-size LIFO buffer with push, pop, peek, and display operations, including overflow and underflow detection. | [`stack_using_array.cpp`](./stack_using_array.cpp) | [📸 View](./outputs/stack_using_array.png) |
 
 ---
 
@@ -83,6 +84,12 @@ g++ -std=c++17 binary_search.cpp -o binary_search
 ./binary_search.exe
 ```
 
+#### Example (Practical 3 - Stack using Array):
+```bash
+g++ -std=c++17 stack_using_array.cpp -o stack_using_array
+./stack_using_array.exe
+```
+
 ---
 
 ## 📁 Repository Directory Structure
@@ -93,9 +100,11 @@ data-structure/
 ├── README.md                # Comprehensive documentation and practical directory
 ├── linear_search.cpp        # Practical 1: Linear Search Algorithm
 ├── binary_search.cpp        # Practical 2: Binary Search Algorithm
+├── stack_using_array.cpp    # Practical 3: Stack Implementation using Array
 └── outputs/                 # Terminal output screenshots
     ├── linear_search.png    # Terminal output for Linear Search
-    └── binary_search.png    # Terminal output for Binary Search
+    ├── binary_search.png    # Terminal output for Binary Search
+    └── stack_using_array.png # Terminal output for Stack using Array
 ```
 
 ---
